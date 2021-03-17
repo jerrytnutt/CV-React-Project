@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans'); 
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+
+
+
+.App {
+  
+  background-color: #d5e6ec;
+ margin-left: auto;
+ margin-right: auto;
+width: 80%;
+border: 2px solid black;
+ }
+ .header{
+   text-align: center;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   background-color: #d5e6ec;
+   font-size: 30px;
+   font-family: 'Questrial';
+   border: 0px;
+ }
+.img{
+  //background-image: url("images/github.png");
+  background-size: 100px 100px;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+}
+
+.infoContainer{
+  display: flex;
+  flex-direction: column;
+  background-color: #d5e6ec;
+  
+  padding: 20px;
+  border-radius: 2px;
+  
+  
+}
+.outerBox{
+  display: flex;
+  flex-direction: row;
+}
+.innerBox{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+h3, h2{
+  text-align: left;
+  margin-bottom: 2px;
+  font-size: 20px;
+  font-family: 'Nunito Sans';
+}
+h2{
+  color: #747373;
+  margin-bottom: 5px;
+
+}
+input{
+  width: 80%;
+  padding: 2px;
+  height: 25px;
+  
+  background-color: rgb(245, 255, 254);
+  border-radius: 1px;
+  border: 0px;
+  border-bottom: 2px rgb(78, 78, 78) solid;
+  font-size: 16px;
+  cursor: pointer;
+}
+.description{
+  text-align: left;
+  font-family: 'Dosis';
+   width: 80%;
+  height: 30px;
+  font-size: 30px;
+}
+
+
+
+.educationContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #d5e6ec;
+    
+    padding: 20px;
+    border: 0px;
+    border-radius: 2px;
+    
+}
+.submit{
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(64, 211, 51);
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.add{
+  height: 50px;
+  padding: 10px;
+  padding-bottom: 30px;
+  border-radius: 5px;
+  background-color: rgb(64, 211, 51);
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+  
+
+}
+.remove{
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: rgb(255, 30, 0);
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+
+}
+
+p{
+  position: relative;
+  bottom: 24px;
+  color: black;
+  font-size: 30px;
+  
+}
+
+.buttonCon{
+height: 50px;
+margin-top: 10px;
+  display: flex;
+  justify-content: column;
+}

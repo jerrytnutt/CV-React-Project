@@ -1,38 +1,161 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans");
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+@import url("https://fonts.googleapis.com/css?family=Questrial");
+
 .App {
+  background-color: #d5e6ec;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border-radius: 5px;
+  box-shadow: 5px 5px #888888;
+  padding: 5px;
+}
+
+.header {
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #d5e6ec;
+  font-size: 20px;
+  font-family: 'Questrial';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.gitImg {
+  background-image: url("images/github.png");
+  background-size: 70px 70px;
+  height: 70px;
+  width: 70px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.infoContainer {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #d5e6ec;
+  padding: 20px;
+  
+}
+
+.outerBox{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.innerBox {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+h3, h2 {
+  text-align: left;
+  margin-bottom: 2px;
+  font-size: 20px;
+  font-family: 'Nunito Sans';
+}
+
+h2 {
+  color: #747373;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 80%;
+  padding: 2px;
+  padding-left: 8px;
+  height: 25px;
+  background-color: #f5fffe;
+  border-radius: 2px;
+  border: 0px;
+  border-bottom: 2px #4e4e4e solid;
+  font-size: 16px;
+}
+
+.description {
+  text-align: left;
+  font-family: 'Varela Round';
+  width: 80%;
+  height: 30px;
+  font-size: 30px;
+}
+
+.descriptionOfDuty{
+  text-align: left;
+  font-family: 'Varela Round';
+  width: 80%;
+ 
+  font-size: 20px;
+
+}
+.duty{
+  width: 80%;
+  padding: 2px;
+  padding-left: 8px;
+  height: 155px;
+  background-color: #f5fffe;
+  border-radius: 2px;
+  border: 0px;
+  border-bottom: 2px #4e4e4e solid;
+  font-size: 18px;
+
+}
+
+.submit,  .editButton{
+  height: 35px;
+  border-radius: 5px;
+  background-color: #40d333;
+  font-size: 20px;
+  cursor: pointer;
   color: white;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.editButton{
+  width: 85px;
+  background-color: #0044ff;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.remove{
+  border-radius: 50%;
+  background-color: hsl(0, 100%, 49%);
+  margin: 0;
+  float: right;
+  font-size: 15px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  border: 0;
+}
+.change{
+  background-color: #0e5aff;
+}
+.add {
+  border-radius: 5px;
+  background-color: #40d333;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+}
+p {
+  position: relative;
+  font-family: 'Nunito Sans';
+  bottom: 18px;
+  color: rgb(65, 65, 65);
+  font-weight: bold;
+  font-size: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.addButtonContainer {
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: column;
+  
 }
