@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/CV-React-Project/static/css/main.0bf9b0ee.chunk.css",
+    "main.js": "/CV-React-Project/static/js/main.219bac44.chunk.js",
+    "main.js.map": "/CV-React-Project/static/js/main.219bac44.chunk.js.map",
+    "runtime-main.js": "/CV-React-Project/static/js/runtime-main.a39cf67b.js",
+    "runtime-main.js.map": "/CV-React-Project/static/js/runtime-main.a39cf67b.js.map",
+    "static/js/2.c9b800dd.chunk.js": "/CV-React-Project/static/js/2.c9b800dd.chunk.js",
+    "static/js/2.c9b800dd.chunk.js.map": "/CV-React-Project/static/js/2.c9b800dd.chunk.js.map",
+    "static/js/3.40d40c0e.chunk.js": "/CV-React-Project/static/js/3.40d40c0e.chunk.js",
+    "static/js/3.40d40c0e.chunk.js.map": "/CV-React-Project/static/js/3.40d40c0e.chunk.js.map",
+    "index.html": "/CV-React-Project/index.html",
+    "static/css/main.0bf9b0ee.chunk.css.map": "/CV-React-Project/static/css/main.0bf9b0ee.chunk.css.map",
+    "static/js/2.c9b800dd.chunk.js.LICENSE.txt": "/CV-React-Project/static/js/2.c9b800dd.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/CV-React-Project/static/media/github.69ffd9cd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a39cf67b.js",
+    "static/js/2.c9b800dd.chunk.js",
+    "static/css/main.0bf9b0ee.chunk.css",
+    "static/js/main.219bac44.chunk.js"
+  ]
+}
